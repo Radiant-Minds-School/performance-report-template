@@ -150,8 +150,12 @@ table, th, td,tr{
 
 
 @media print{
+    .wrapper{
+        transform: scaleY(1.11);
+        margin-top: 6rem;
+    }
     /* head */
-     *{
+     /* *{
         margin: 0;
         padding: 0;
         border: 0;
@@ -167,9 +171,9 @@ table, th, td,tr{
     }
     .head .content .space{
         font-size: 1rem;
-    }
+    } */
     /* Added a print class in the head content paragraph */
-    .head .content .print{
+    /* .head .content .print{
         font-size: 80%;
     }
     .head .content .h5{
@@ -237,5 +241,5 @@ table, th, td,tr{
     }
     .remark-hd,.remark-ct{
         font-size: 75%;
-    }
+    } */
 }   
